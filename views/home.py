@@ -29,7 +29,6 @@ if crime_group:
     crime_type = st.selectbox(label='Crime Type',
                               options=make_crime_type_list(crime_group),
                               index=None)
-
     if crime_type:
         filters['StatisticCrimeType'] = crime_type
 
