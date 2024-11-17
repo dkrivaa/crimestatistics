@@ -65,7 +65,7 @@ def get_data(filters=None):
 
     def process_resource(resource_id, year, filters, max_retries=3):
         offset = 0
-        limit = 50000  # Fetch in chunks
+        limit = 10000  # Fetch in chunks
         all_records = []
         retry_count = 0
 
